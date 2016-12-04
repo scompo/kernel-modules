@@ -8,7 +8,7 @@
 #include <linux/init.h>		// needed for the macros
 
 static int __init hello_2_init(void){
-	printk(KERN_INFO "hello world 2.\n");
+	printk(KERN_INFO "Hello world 2.\n");
 	return 0;
 }
 

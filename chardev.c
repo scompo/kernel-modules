@@ -81,6 +81,7 @@ int init_module(void){
  */
 void cleanup_module(void){
 
+	printk(KERN_INFO "chardev: unregistered, thank you.\n");
 	// Unregistering the device.
 	// Used to return an int, always succeedes now!
 	unregister_chrdev(Major, DEVICE_NAME);

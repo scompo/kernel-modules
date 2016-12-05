@@ -52,3 +52,16 @@ This command should be run as root.
 ```
 # rmmod hello-4.ko
 ```
+
+### dmesg
+
+_dmesg_ writes system log messages to the console.
+
+#### Usage
+
+```
+$ dmesg | grep "my-module"
+
+a lot of stuff!
+
+```
